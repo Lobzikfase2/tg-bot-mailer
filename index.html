@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТГ-Рассылатель</title>
+    <meta name="description" content="Рассылка сообщений пользователям ТГ-бота">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <div class="container justify-content-center d-flex v-100 align-items-center">
+            <div class="wrapper">
+                <div class="row">
+                    <textarea contenteditable name="" id="textarea" class="col-12 col-md-6"></textarea>
+                    <div class="row col-12 col-md-6 buttons">
+                        <button class="btn btn-primary col-5 col-xxs-12 buttons_first">ПРОВЕРИТЬ</button>
+                        <button class="btn btn-outline-success col-5 offset-2 offset-xxs-0 col-xxs-12 buttons_second">РАЗОСЛАТЬ</button>
+                        <div class="calendar mt-3">
+                            <div class="row calendar_horizontal">
+                                <button class="btn btn-danger col-5">ЗАПЛАНИРОВАТЬ</button>
+                                <input type="time" class="col-3 timepicker">
+                                <input type="date" class="col-4 datepicker">
+                            </div>
+                            <div class="row calendar_vertical">
+                                <button class="btn btn-danger col-12">ЗАПЛАНИРОВАТЬ</button>
+                                <input type="time" class="col-6 col-xxs-12 timepicker">
+                                <input type="date" class="col-6 col-xxs-12 datepicker">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
